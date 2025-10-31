@@ -1,4 +1,4 @@
-# 🧠 Yemuelgen Agent
+# Yemuelgen Agent
 
 **Yemuelgen** is an intelligent Python-based agent that generates and manages realistic sample user data using **Google’s Generative AI (Gemini)** and the **LangChain** framework.
 It features a **Tkinter-based GUI** for interactive conversation and can also run in the **terminal**.
@@ -20,12 +20,12 @@ It features a **Tkinter-based GUI** for interactive conversation and can also ru
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
 Install dependencies:
 
 ```bash
-uv add  langchain langchain-google-genai colorama python-dotenv
+uv add langchain langchain-google-genai colorama python-dotenv
 ```
 
 > 💡 Make sure you have a valid **Google Generative AI API key** set in your `.env` file:
@@ -36,7 +36,7 @@ GOOGLE_API_KEY=your_api_key_here
 
 ---
 
-## 🧩 How It Works
+## How It Works
 
 1. **Yemuelgen** interprets your input and decides whether to generate, read, or save user data.
 2. It uses `generate_sample_data` to create structured data such as:
@@ -78,7 +78,7 @@ Save to data/users.json
 
 ---
 
-## 🧪 Optional: Run in Terminal Mode
+## Optional: Run in Terminal Mode
 
 You can uncomment the `interactive_console()` function to use the text-based CLI instead of the GUI. 
 As well as replace the call of the run_agent() with it after "if __name__ = __main__:"
@@ -96,7 +96,7 @@ As well as replace the call of the run_agent() with it after "if __name__ = __ma
 
 ---
 
-## 🧠 Example Query
+## Example Query
 
 > **You:** Generate 5 users with first names John, Jane, and Mike, domain gmail.com, ages 20–60
 >
