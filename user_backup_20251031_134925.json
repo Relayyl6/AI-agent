@@ -1,0 +1,44 @@
+[
+    {
+        "username": "janedoe8322",
+        "city": "Paris",
+        "gender": "Male",
+        "id": 1.0,
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "isActive": true,
+        "phone": "+485-6503984476",
+        "email": "jane.doe@example.com",
+        "signupSource": "Mobile",
+        "joinedAt": "2021-08-29",
+        "age": 65.0
+    },
+    {
+        "username": "janejohnson8792",
+        "city": "Tokyo",
+        "gender": "Male",
+        "id": 2.0,
+        "phone": "+761-7661687591",
+        "lastName": "Johnson",
+        "isActive": false,
+        "firstName": "Jane",
+        "email": "jane.johnson@mail.com",
+        "signupSource": "API",
+        "age": 64.0,
+        "joinedAt": "2023-11-16"
+    },
+    {
+        "username": "mikesmith7657",
+        "gender": "Non-binary",
+        "city": "Tokyo",
+        "id": 3.0,
+        "lastName": "Smith",
+        "phone": "+675-2096510572",
+        "isActive": false,
+        "firstName": "Mike",
+        "email": "mike.smith@mail.com",
+        "age": 55.0,
+        "joinedAt": "2023-05-14",
+        "signupSource": "Google"
+    }
+]

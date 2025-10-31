@@ -1,0 +1,72 @@
+[
+    {
+        "username": "davidbrown9048",
+        "city": "London",
+        "gender": "Male",
+        "id": 1.0,
+        "lastName": "Brown",
+        "firstName": "David",
+        "isActive": false,
+        "phone": "+197-8629648645",
+        "email": "david.brown@example.com",
+        "joinedAt": "2023-11-16",
+        "age": 29.0,
+        "signupSource": "Web"
+    },
+    {
+        "username": "alicewilliams8173",
+        "city": "Berlin",
+        "gender": "Non-binary",
+        "id": 2.0,
+        "firstName": "Alice",
+        "phone": "+257-5938327441",
+        "isActive": false,
+        "lastName": "Williams",
+        "email": "alice.williams@test.org",
+        "age": 26.0,
+        "joinedAt": "2025-06-14",
+        "signupSource": "Web"
+    },
+    {
+        "username": "davidjones8832",
+        "city": "Paris",
+        "gender": "Male",
+        "id": 3.0,
+        "phone": "+896-6688200798",
+        "firstName": "David",
+        "isActive": false,
+        "lastName": "Jones",
+        "email": "david.jones@example.com",
+        "age": 27.0,
+        "signupSource": "API",
+        "joinedAt": "2018-01-06"
+    },
+    {
+        "username": "bobbrown6808",
+        "city": "Toronto",
+        "gender": "Female",
+        "id": 4.0,
+        "lastName": "Brown",
+        "firstName": "Bob",
+        "isActive": false,
+        "phone": "+272-6041312645",
+        "email": "bob.brown@example.com",
+        "joinedAt": "2016-07-07",
+        "age": 26.0,
+        "signupSource": "API"
+    },
+    {
+        "username": "alicesmith7174",
+        "city": "London",
+        "gender": "Male",
+        "id": 5.0,
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "isActive": false,
+        "phone": "+781-3411836215",
+        "email": "alice.smith@example.com",
+        "signupSource": "API",
+        "joinedAt": "2016-05-19",
+        "age": 25.0
+    }
+]
