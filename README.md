@@ -25,7 +25,7 @@ It features a **Tkinter-based GUI** for interactive conversation and can also ru
 Install dependencies:
 
 ```bash
-pip install langchain langchain-google-genai colorama python-dotenv
+uv add  langchain langchain-google-genai colorama python-dotenv
 ```
 
 > 💡 Make sure you have a valid **Google Generative AI API key** set in your `.env` file:
@@ -43,12 +43,18 @@ GOOGLE_API_KEY=your_api_key_here
 
    ```json
    {
-     "firstName": "Alice",
-     "lastName": "Brown",
-     "email": "alice.brown@example.com",
-     "age": 29,
-     "city": "Berlin",
-     "phone": "+44 123 456 789"
+        "username": "charliejones827",
+        "city": "New York",
+        "gender": "Non-binary",
+        "id": 1.0,
+        "lastName": "Jones",
+        "phone": "+851 266 451 264 8",
+        "isActive": true,
+        "firstName": "Charlie",
+        "email": "charlie.jones@data.io",
+        "signupSource": "Google",
+        "joinedAt": "2023-12-08",
+        "age": 21.0
    }
    ```
 3. When asked to “save” or “export,” it writes the generated users to a JSON file using `write_json`.
@@ -74,7 +80,8 @@ Save to data/users.json
 
 ## 🧪 Optional: Run in Terminal Mode
 
-You can uncomment the `interactive_console()` function to use the text-based CLI instead of the GUI. as well as replace the call of the run_agent() with it after "if __name__ = __main__:"
+You can uncomment the `interactive_console()` function to use the text-based CLI instead of the GUI. 
+As well as replace the call of the run_agent() with it after "if __name__ = __main__:"
 
 ---
 
